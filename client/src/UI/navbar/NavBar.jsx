@@ -1,11 +1,5 @@
 export default function NavBar() {
-  const navOptions = [
-    "Welcome",
-    "About",
-    "Booking",
-    "Bridal Makeup",
-    "Makeup Portfolio",
-  ];
+  const navOptions = ["Welcome", "About Me", "Booking", "Bridal", "Portfolio"];
 
   return (
     <div className="h-32 bg-white flex flex-row justify-around items-end">
