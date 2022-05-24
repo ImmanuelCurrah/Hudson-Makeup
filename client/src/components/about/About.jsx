@@ -8,7 +8,7 @@ export default function About() {
         src={sarah}
         alt="a picture of a woman next to a lake a blue sky"
       />
-      <p className=" mx-8 font-IBM-Plex-Serif font-semibold">
+      <p className=" mx-8 mb-8 font-IBM-Plex-Serif font-semibold">
         Sarah is... Lorem ipsum dolor, sit amet consectetur adipisicing elit.
         Vero nulla mollitia dignissimos delectus architecto aut eos quas
         reprehenderit illum voluptas, error facilis perferendis assumenda
