@@ -16,4 +16,10 @@ code {
     monospace;
 }
 
+@layer components {
+  body {
+    @apply bg-zinc-100;
+  }
+}
+
 

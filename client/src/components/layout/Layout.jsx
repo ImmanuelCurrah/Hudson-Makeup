@@ -3,7 +3,7 @@ export default function Layout(props) {
   return (
     <div>
       <NavBar />
-      <div>{props.children}</div>
+      <div className="flex flex-col items-center">{props.children}</div>
     </div>
   );
 }
