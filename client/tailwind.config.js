@@ -7,6 +7,15 @@ module.exports = {
           1000: "#18181b",
         },
       },
+      fontFamily: {
+        // font-family: 'IBM Plex Serif', serif;
+        "IBM-Plex-Serif": ["IBM Plex Serif", "serif"],
+      },
+    },
+  },
+  variants: {
+    extend: {
+      backgroundColor: ["active"],
     },
   },
   plugins: [],
