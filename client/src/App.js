@@ -6,7 +6,7 @@ import Booking from "./screens/booking/Booking";
 import Bridal from "./screens/bridal/Bridal";
 import Home from "./screens/home/Home";
 import Portfolio from "./screens/portfolio/Portfolio";
-import loadingImage from "./assets/loading/loading.png";
+import loadingImage from "./assets/loading/loading-two.jpg";
 import logo from "./assets/logo/hudson-valley-makeup-logo.png";
 
 function App() {
