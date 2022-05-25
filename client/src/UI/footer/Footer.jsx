@@ -11,7 +11,7 @@ export default function Footer() {
           {navOptions.map((navElement, index) => {
             return (
               <div
-                className="flex flex-row justify-start border-b-2 border-black cursor-pointer hover:text-cyan-400"
+                className="flex flex-row justify-start cursor-pointer hover:text-white"
                 key={index}
               >
                 {navElement}
@@ -19,15 +19,17 @@ export default function Footer() {
             );
           })}
         </div>
-
-        <img
-          onClick={() => {
-            navigate("/");
-          }}
-          className="h-24 cursor-pointer"
-          src={logo}
-          alt="hands making a heart with name of artist underneath"
-        />
+        <div>
+          <img
+            onClick={() => {
+              navigate("/");
+            }}
+            className="h-24 cursor-pointer mb-2"
+            src={logo}
+            alt="hands making a heart with name of artist underneath"
+          />
+          <div className="cursor-pointer hover:text-white">Contact Sarah</div>
+        </div>
       </div>
     </div>
   );
