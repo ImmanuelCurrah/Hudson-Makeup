@@ -1,9 +1,10 @@
 import Button from "../../UI/button/Button";
 
-export default function HomePageBooking() {
+export default function HomePageBooking(props) {
+  const { buttonName } = props;
   return (
     <div>
-      <Button>Book Now!</Button>
+      <Button whereTo="booking">{buttonName}</Button>
     </div>
   );
 }

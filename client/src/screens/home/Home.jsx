@@ -13,7 +13,7 @@ export default function Home() {
       <p className="font-IBM-Plex-Serif mb-12">
         "Making beauty more clean by using all natural products"
       </p>
-      <HomePageBooking />
+      <HomePageBooking buttonName="Book Now!" />
       <About />
     </Layout>
   );
