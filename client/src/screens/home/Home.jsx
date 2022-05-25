@@ -2,6 +2,7 @@ import Layout from "../../components/layout/Layout";
 import logo from "../../assets/logo/hudson-valley-makeup-logo.png";
 import HomePageBooking from "../../components/homePageBooking/HomePageBooking";
 import About from "../../components/about/About";
+import Button from "../../UI/button/Button";
 
 export default function Home(props) {
   return (
@@ -18,6 +19,9 @@ export default function Home(props) {
         buttonName="Get a Quote!"
       />
       <About />
+      <div className="mb-4">
+        <Button>See my Reviews</Button>
+      </div>
     </Layout>
   );
 }
