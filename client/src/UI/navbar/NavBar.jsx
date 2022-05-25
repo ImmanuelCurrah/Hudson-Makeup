@@ -14,8 +14,8 @@ export default function NavBar() {
             onClick={() => {
               if (navElement === "Welcome") {
                 navigate("/");
-              } else if (navElement === "About Me") {
-                navigate("/about-me");
+              } else {
+                navigate(`/${navElement}`);
               }
             }}
           >
