@@ -8,7 +8,11 @@ export default function Button(props) {
     <button
       onClick={() => {
         if (whereTo) {
-          navigate(`/${whereTo}`);
+          props.handleDisplay(true);
+          setTimeout(() => {
+            navigate(`/${whereTo}`);
+            props.handleDisplay(false);
+          }, 1000);
         } else {
           return;
         }

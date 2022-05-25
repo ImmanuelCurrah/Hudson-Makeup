@@ -13,7 +13,10 @@ export default function Home(props) {
       <p className="font-IBM-Plex-Serif mb-12">
         "Making beauty more clean by using all natural products"
       </p>
-      <HomePageBooking buttonName="Book Now!" />
+      <HomePageBooking
+        handleDisplay={props.handleDisplay}
+        buttonName="Book Now!"
+      />
       <About />
     </Layout>
   );

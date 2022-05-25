@@ -4,7 +4,9 @@ export default function HomePageBooking(props) {
   const { buttonName } = props;
   return (
     <div>
-      <Button whereTo="booking">{buttonName}</Button>
+      <Button handleDisplay={props.handleDisplay} whereTo="booking">
+        {buttonName}
+      </Button>
     </div>
   );
 }
