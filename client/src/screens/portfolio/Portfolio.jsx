@@ -9,7 +9,7 @@ export default function Portfolio() {
         {pictures.map((pic, index) => {
           return (
             <img
-              className="h-96"
+              className="h-96 opacity-70 hover:opacity-100"
               key={index}
               src={pic.picture}
               alt={pic.description}
