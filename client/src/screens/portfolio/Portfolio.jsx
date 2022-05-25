@@ -4,7 +4,7 @@ import { pictures } from "../../assets/portfolio-data/portfolioData";
 export default function Portfolio() {
   return (
     <Layout>
-      <div>Portfolio</div>
+      <div className="m-4 font-IBM-Plex-Serif text-3xl">Portfolio</div>
       <div className="grid grid-cols-3 gap-4 m-4">
         {pictures.map((pic, index) => {
           return (
