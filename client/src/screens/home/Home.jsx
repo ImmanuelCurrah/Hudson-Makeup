@@ -15,7 +15,7 @@ export default function Home(props) {
       </p>
       <HomePageBooking
         handleDisplay={props.handleDisplay}
-        buttonName="Book Now!"
+        buttonName="Get a Quote!"
       />
       <About />
     </Layout>
