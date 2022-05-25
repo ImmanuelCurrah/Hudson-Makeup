@@ -2,9 +2,9 @@ import Layout from "../../components/layout/Layout";
 import sarah from "../../assets/pictures/about-me-front-pic.jpeg";
 import sarah2 from "../../assets/pictures/sarah-on-rock.jpeg";
 
-export default function AboutMe() {
+export default function AboutMe(props) {
   return (
-    <Layout>
+    <Layout handleDisplay={props.handleDisplay}>
       <div className="w-screen flex flex-row items-center ">
         <img
           className="h-96 m-4 rounded-md"

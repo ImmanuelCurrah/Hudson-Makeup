@@ -3,9 +3,9 @@ import logo from "../../assets/logo/hudson-valley-makeup-logo.png";
 import HomePageBooking from "../../components/homePageBooking/HomePageBooking";
 import About from "../../components/about/About";
 
-export default function Home() {
+export default function Home(props) {
   return (
-    <Layout>
+    <Layout handleDisplay={props.handleDisplay}>
       <img
         src={logo}
         alt="hands shaped in a heart with name of company and artist underneath"

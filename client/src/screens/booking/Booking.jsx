@@ -1,8 +1,8 @@
 import Layout from "../../components/layout/Layout";
 
-export default function Booking() {
+export default function Booking(props) {
   return (
-    <Layout>
+    <Layout handleDisplay={props.handleDisplay}>
       <div>Booking</div>
     </Layout>
   );

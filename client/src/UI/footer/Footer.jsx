@@ -24,11 +24,17 @@ export default function Footer() {
             onClick={() => {
               navigate("/");
             }}
-            className="h-24 cursor-pointer mb-2"
+            className="h-32 cursor-pointer mb-2"
             src={logo}
             alt="hands making a heart with name of artist underneath"
           />
-          <div className="cursor-pointer hover:text-white">Contact Sarah</div>
+        </div>
+        <div className="flex flex-col justify-center items-start">
+          <p>Woodstock, NY</p>
+          <p>{`(914)-336-0733`}</p>
+          <p className="cursor-pointer hover:text-white">
+            sarahgfelder@gmail.com
+          </p>
         </div>
       </div>
     </div>
