@@ -9,17 +9,22 @@ export default function About() {
         alt="a picture of a woman next to a lake a blue sky"
       />
       <p className=" mx-8 mb-8 font-IBM-Plex-Serif font-semibold">
-        Sarah is... Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-        Vero nulla mollitia dignissimos delectus architecto aut eos quas
-        reprehenderit illum voluptas, error facilis perferendis assumenda
-        tenetur officia molestias odit tempora deserunt. Lorem ipsum, dolor sit
-        amet consectetur adipisicing elit. Quae laudantium expedita aperiam
-        error nesciunt ex velit tenetur, sapiente laborum eum commodi assumenda
-        placeat iusto magnam numquam reprehenderit suscipit culpa quisquam.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, numquam
-        commodi. Nam dicta quos voluptatum sapiente perferendis facere minus non
-        voluptatem, rerum labore voluptas, expedita deserunt natus illo! Quis,
-        quidem.
+        Are you a future bride who wants to bring out her natural beauty?
+      </p>
+      <p className=" mx-8 mb-8 font-IBM-Plex-Serif font-semibold">
+        Are you health conscious?
+      </p>
+      <p className=" mx-8 mb-8 font-IBM-Plex-Serif font-semibold">
+        Do you want to play and have a zero stress makeup experience?
+      </p>
+      <p className=" mx-8 mb-8 font-IBM-Plex-Serif font-semibold">
+        Then you’re in the right place!
+      </p>
+      <p className=" mx-8 mb-8 font-IBM-Plex-Serif font-semibold">
+        I am a clean makeup artist serving the Hudson Valley.
+      </p>
+      <p className=" mx-8 mb-8 font-IBM-Plex-Serif font-semibold">
+        I’m here to help you glow from the inside out.
       </p>
     </div>
   );
