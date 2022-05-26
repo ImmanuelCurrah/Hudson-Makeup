@@ -2,7 +2,7 @@ import { navOptions } from "../nav-options/navOptions";
 import logo from "../../assets/logo/hudson-valley-makeup-logo.png";
 import { useNavigate } from "react-router-dom";
 
-export default function Footer() {
+export default function Footer(props) {
   const navigate = useNavigate();
   return (
     <div className="h-48 bg-zinc-200 flex items-center">
@@ -22,7 +22,11 @@ export default function Footer() {
         <div>
           <img
             onClick={() => {
-              navigate("/");
+              props.handleDisplay(true);
+              setTimeout(() => {
+                navigate("/");
+                props.handleDisplay(false);
+              }, 1000);
             }}
             className="h-32 cursor-pointer mb-2"
             src={logo}

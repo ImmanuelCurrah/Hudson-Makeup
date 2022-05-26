@@ -5,7 +5,7 @@ export default function Layout(props) {
     <div>
       <NavBar handleDisplay={props.handleDisplay} />
       <div className="flex flex-col items-center">{props.children}</div>
-      <Footer />
+      <Footer handleDisplay={props.handleDisplay} />
     </div>
   );
 }
