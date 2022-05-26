@@ -19,9 +19,6 @@ export default function Home(props) {
         buttonName="Get a Quote!"
       />
       <About />
-      <div className="mb-4">
-        <Button>See my Reviews</Button>
-      </div>
     </Layout>
   );
 }

@@ -1,6 +1,6 @@
 export const navOptions = [
   "Welcome",
-  "About Me",
+  "About",
   "Booking",
   "Bridal",
   "Portfolio",

@@ -29,10 +29,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<Home handleDisplay={setDisplay} />} />
-        <Route
-          path="/about%20me"
-          element={<AboutMe handleDisplay={setDisplay} />}
-        />
+        <Route path="/about" element={<AboutMe handleDisplay={setDisplay} />} />
         <Route
           path="/booking"
           element={<Booking handleDisplay={setDisplay} />}
