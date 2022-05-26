@@ -13,6 +13,17 @@ export default function Footer(props) {
               <div
                 className="flex flex-row justify-start cursor-pointer hover:text-white"
                 key={index}
+                onClick={() => {
+                  props.handleDisplay(true);
+                  setTimeout(() => {
+                    if (navElement === "Welcome") {
+                      navigate("/");
+                    } else {
+                      navigate(`/${navElement}`);
+                    }
+                    props.handleDisplay(false);
+                  }, 1000);
+                }}
               >
                 {navElement}
               </div>
