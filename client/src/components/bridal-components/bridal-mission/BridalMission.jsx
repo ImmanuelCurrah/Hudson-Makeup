@@ -4,9 +4,12 @@ export default function BridalMission() {
   return (
     <div className="bg-white w-screen flex flex-row justify-evenly items-center">
       <div className="m-4">
-        <div>My mission is to help you...</div>
+        <div className="font-IBM-Plex-Serif text-xl">
+          My mission is to help you...
+        </div>
+        <br />
         <div>
-          <ul>
+          <ul className="font-IBM-Plex-Serif font-semibold text-left">
             <li>Break out</li>
             <li>feel your best</li>
             <li>be beautiful</li>
