@@ -15,36 +15,40 @@ export default function BridalProcess() {
       <div className="m-4 flex flex-col items-start">
         <div className="flex flex-row items-center">
           <RiNumber1 className="bg-zinc-400 h-16 w-16 rounded-full m-4" />
-          <p>
+          <p className="font-IBM-Plex-Serif font-semibold">
             You’d fill out the inquire form. I can only take on smaller bridal
             parties.
           </p>
         </div>
         <div className="flex flex-row items-center">
           <RiNumber2 className="bg-zinc-400 h-16 w-16 rounded-full m-4" />
-          <p>
+          <p className="font-IBM-Plex-Serif font-semibold">
             I’d send you a quote based on your needs and we’d schedule a paid
             makeup trial.
           </p>
         </div>
         <div className="flex flex-row items-center">
           <RiNumber3 className="bg-zinc-400 h-16 w-16 rounded-full m-4" />
-          <p>During this trial we’d plan and try out your makeup look. </p>
+          <p className="font-IBM-Plex-Serif font-semibold">
+            During this trial we’d plan and try out your makeup look.{" "}
+          </p>
         </div>
         <div className="flex flex-row items-center">
           <RiNumber4 className="bg-zinc-400 h-16 w-16 rounded-full m-4" />
-          <p>
+          <p className="font-IBM-Plex-Serif font-semibold">
             If you liked the trial, you’d put a 50% deposit or pay in full for
             the wedding makeup package.
           </p>
         </div>
         <div className="flex flex-row items-center">
           <RiNumber5 className="bg-zinc-400 h-16 w-16 rounded-full m-4" />
-          <p>The full amount is due 2 weeks before the wedding. </p>
+          <p className="font-IBM-Plex-Serif font-semibold">
+            The full amount is due 2 weeks before the wedding.
+          </p>
         </div>
         <div className="flex flex-row items-center">
           <RiNumber6 className="bg-zinc-400 h-16 w-16 rounded-full m-4" />
-          <p>
+          <p className="font-IBM-Plex-Serif font-semibold">
             I’d come a few hours early and make your makeup a no stress,
             uplifting part of your day!
           </p>
