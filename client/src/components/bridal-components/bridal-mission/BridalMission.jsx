@@ -1,4 +1,5 @@
 import bride from "../../../assets/bridal-filler-pics/bridal-mission.png";
+import { BsFlower3 } from "react-icons/bs";
 
 export default function BridalMission() {
   return (
@@ -10,12 +11,30 @@ export default function BridalMission() {
         <br />
         <div>
           <ul className="font-IBM-Plex-Serif font-semibold text-left">
-            <li>Break out</li>
-            <li>feel your best</li>
-            <li>be beautiful</li>
-            <li>shine</li>
-            <li>relax</li>
-            <li>Have fun</li>
+            <div className="flex flex-row items-center mx-">
+              <BsFlower3 className="m-2" />
+              <li>Break out</li>
+            </div>
+            <div className="flex flex-row items-center mx-">
+              <BsFlower3 className="m-2" />
+              <li>Relax</li>
+            </div>
+            <div className="flex flex-row items-center mx-">
+              <BsFlower3 className="m-2" />
+              <li>Be Beautiful</li>
+            </div>
+            <div className="flex flex-row items-center mx-">
+              <BsFlower3 className="m-2" />
+              <li>Have fun</li>
+            </div>
+            <div className="flex flex-row items-center mx-">
+              <BsFlower3 className="m-2" />
+              <li>Stay stress free</li>
+            </div>
+            <div className="flex flex-row items-center mx-">
+              <BsFlower3 className="m-2" />
+              <li>Shine</li>
+            </div>
           </ul>
         </div>
       </div>
