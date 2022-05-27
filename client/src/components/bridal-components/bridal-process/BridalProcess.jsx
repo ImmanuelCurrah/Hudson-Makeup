@@ -8,7 +8,7 @@ import Button from "../../../UI/button/Button";
 
 export default function BridalProcess() {
   return (
-    <div className="bg-zinc-200 w-screen">
+    <div className="bg-zinc-200 w-screen flex flex-col items-center">
       <div className="m-4">
         <h2 className="font-IBM-Plex-Serif text-xl">My Process</h2>
       </div>
