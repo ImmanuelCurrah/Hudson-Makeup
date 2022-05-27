@@ -13,12 +13,42 @@ export default function BridalProcess() {
         <h2 className="font-IBM-Plex-Serif text-xl">My Process</h2>
       </div>
       <div className="m-4 flex flex-col items-start">
-        <RiNumber1 className="bg-zinc-400 h-16 w-16 rounded-full m-4" />
-        <RiNumber2 className="bg-zinc-400 h-16 w-16 rounded-full m-4" />
-        <RiNumber3 className="bg-zinc-400 h-16 w-16 rounded-full m-4" />
-        <RiNumber4 className="bg-zinc-400 h-16 w-16 rounded-full m-4" />
-        <RiNumber5 className="bg-zinc-400 h-16 w-16 rounded-full m-4" />
-        <RiNumber6 className="bg-zinc-400 h-16 w-16 rounded-full m-4" />
+        <div className="flex flex-row items-center">
+          <RiNumber1 className="bg-zinc-400 h-16 w-16 rounded-full m-4" />
+          <p>
+            You’d fill out the inquire form. I can only take on smaller bridal
+            parties.
+          </p>
+        </div>
+        <div className="flex flex-row items-center">
+          <RiNumber2 className="bg-zinc-400 h-16 w-16 rounded-full m-4" />
+          <p>
+            I’d send you a quote based on your needs and we’d schedule a paid
+            makeup trial.
+          </p>
+        </div>
+        <div className="flex flex-row items-center">
+          <RiNumber3 className="bg-zinc-400 h-16 w-16 rounded-full m-4" />
+          <p>During this trial we’d plan and try out your makeup look. </p>
+        </div>
+        <div className="flex flex-row items-center">
+          <RiNumber4 className="bg-zinc-400 h-16 w-16 rounded-full m-4" />
+          <p>
+            If you liked the trial, you’d put a 50% deposit or pay in full for
+            the wedding makeup package.
+          </p>
+        </div>
+        <div className="flex flex-row items-center">
+          <RiNumber5 className="bg-zinc-400 h-16 w-16 rounded-full m-4" />
+          <p>The full amount is due 2 weeks before the wedding. </p>
+        </div>
+        <div className="flex flex-row items-center">
+          <RiNumber6 className="bg-zinc-400 h-16 w-16 rounded-full m-4" />
+          <p>
+            I’d come a few hours early and make your makeup a no stress,
+            uplifting part of your day!
+          </p>
+        </div>
       </div>
       <div className="m-4">
         <Button>Get started!</Button>
