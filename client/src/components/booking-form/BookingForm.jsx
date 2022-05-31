@@ -47,72 +47,83 @@ export default function BookingForm() {
   };
 
   return (
-    <form onSubmit={onSubmit}>
-      <div>
-        <label>Name:</label>
-        <input
-          type="text"
-          id="name"
-          value={inputData.name}
-          onChange={handleChange}
-        />
+    <>
+      <form className="m-4 flex flex-col items-center">
+        <div className="flex flex-col m-4">
+          <label>Name</label>
+          <input
+            autoFocus
+            className="h-8 w-52 rounded-md"
+            type="text"
+            id="name"
+            value={inputData.name}
+            onChange={handleChange}
+          />
+        </div>
+        <div className="flex flex-col m-4">
+          <label>Phone</label>
+          <input
+            className="h-8 w-52 rounded-md"
+            type="text"
+            id="phone"
+            value={inputData.phone}
+            onChange={handleChange}
+          />
+        </div>
+        <div className="flex flex-col m-4">
+          <label>Email</label>
+          <input
+            className="h-8 w-52 rounded-md"
+            type="email"
+            id="email"
+            value={inputData.email}
+            onChange={handleChange}
+          />
+        </div>
+        <div className="flex flex-col m-4 items-center">
+          <label>How do you prefer to be reached?</label>
+          <select onChange={handleSelected} className="h-8 w-52 rounded-md">
+            <option>Select one</option>
+            <option>Email</option>
+            <option>Phone call</option>
+            <option>Text</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div className="flex flex-col m-4 items-center">
+          <label>Number of people in addition to the bride:</label>
+          <input
+            className="h-8 w-52 rounded-md"
+            type="number"
+            id="numOfPeople"
+            value={inputData.numOfPeople}
+            onChange={handleChange}
+          />
+        </div>
+        <div className="flex flex-col m-4">
+          <label>Location</label>
+          <input
+            className="h-8 w-52 rounded-md"
+            type="text"
+            id="location"
+            value={inputData.location}
+            onChange={handleChange}
+          />
+        </div>
+        <div className="flex flex-col m-4">
+          <label>Give me a brief description of what you are envisioning</label>
+          <textarea
+            className="h-32 rounded-md"
+            type="text"
+            id="vision"
+            value={inputData.vision}
+            onChange={handleChange}
+          />
+        </div>
+      </form>
+      <div className="m-4">
+        <Button onSubmit={onSubmit}>Submit</Button>
       </div>
-      <div>
-        <label>Phone:</label>
-        <input
-          type="text"
-          id="phone"
-          value={inputData.phone}
-          onChange={handleChange}
-        />
-      </div>
-      <div>
-        <label>Email:</label>
-        <input
-          type="email"
-          id="email"
-          value={inputData.email}
-          onChange={handleChange}
-        />
-      </div>
-      <div>
-        <label>How do you prefer to be reached?</label>
-        <select onChange={handleSelected}>
-          <option>Select one</option>
-          <option>Email</option>
-          <option>Phone call</option>
-          <option>Text</option>
-          <option>Other</option>
-        </select>
-      </div>
-      <div>
-        <label>Number of people in addition to the bride:</label>
-        <input
-          type="number"
-          id="numOfPeople"
-          value={inputData.numOfPeople}
-          onChange={handleChange}
-        />
-      </div>
-      <div>
-        <label>Location:</label>
-        <input
-          type="text"
-          id="location"
-          value={inputData.location}
-          onChange={handleChange}
-        />
-      </div>
-      <div>
-        <label>Give me a brief description of what you are envisioning:</label>
-        <textarea
-          type="text"
-          id="vision"
-          value={inputData.vision}
-          onChange={handleChange}
-        />
-      </div>
-      <Button onSubmit={onSubmit}>Submit</Button>
-    </form>
+    </>
   );
 }
