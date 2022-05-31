@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Button from "../../UI/button/Button";
+import { send } from "emailjs-com";
 
 const defaultInput = {
   name: "",
@@ -29,8 +30,19 @@ export default function BookingForm() {
     }));
   };
 
-  const onSubmit = (e) => {
-    console.log(inputData);
+  const onSubmit = () => {
+    send(
+      "service_bar12i8",
+      "template_bkud67j",
+      inputData,
+      "user_xgsffGVyXexQ3ivs5i03i"
+    )
+      .then((response) => {
+        console.log("SUCCESS!", response.status, response.text);
+      })
+      .catch((err) => {
+        console.log("FAILED...", err);
+      });
     setInputData(defaultInput);
   };
 
