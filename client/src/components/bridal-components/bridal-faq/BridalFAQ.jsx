@@ -6,9 +6,7 @@ export default function BridalFAQ() {
       <div className="m-4">
         <h2 className="font-IBM-Plex-Serif text-xl">FAQ</h2>
       </div>
-      <div className="flex flex-col items-center justify-center">
-        <GiVineFlower className="text-5xl m-4" />
-      </div>
+      <div className="flex flex-col items-center justify-center"></div>
       <div className="grid grid-cols-2 gap-16 m-4 ">
         <div>
           <h3 className="font-IBM-Plex-Serif">Here is a test question</h3>
