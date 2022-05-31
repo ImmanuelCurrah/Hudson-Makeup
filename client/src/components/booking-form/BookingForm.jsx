@@ -14,6 +14,9 @@ const defaultInput = {
 
 export default function BookingForm() {
   const [inputData, setInputData] = useState(defaultInput);
+  const [otherDisplay, setOtherDisplay] = useState(
+    "h-8 w-52 rounded-md hidden"
+  );
 
   const handleChange = (e) => {
     const { id, value } = e.target;
@@ -24,10 +27,19 @@ export default function BookingForm() {
   };
 
   const handleSelected = (e) => {
-    setInputData((prevState) => ({
-      ...prevState,
-      contactPreference: e.target.value,
-    }));
+    if (e.target.value === "Other") {
+      setOtherDisplay("h-8 w-52 rounded-md");
+      setInputData((prevState) => ({
+        ...prevState,
+        contactPreference: "",
+      }));
+    } else if (e.target.value !== "Other") {
+      setInputData((prevState) => ({
+        ...prevState,
+        contactPreference: e.target.value,
+      }));
+      setOtherDisplay("h-8 w-52 rounded-md hidden");
+    }
   };
 
   const onSubmit = () => {
@@ -50,7 +62,7 @@ export default function BookingForm() {
     <>
       <form className="m-4 flex flex-col items-center">
         <div className="flex flex-col m-4">
-          <label>Name</label>
+          <label className="font-IBM-Plex-Serif font-semibold mb-2">Name</label>
           <input
             autoFocus
             className="h-8 w-52 rounded-md"
@@ -61,7 +73,9 @@ export default function BookingForm() {
           />
         </div>
         <div className="flex flex-col m-4">
-          <label>Phone</label>
+          <label className="font-IBM-Plex-Serif font-semibold mb-2">
+            Phone
+          </label>
           <input
             className="h-8 w-52 rounded-md"
             type="text"
@@ -71,7 +85,9 @@ export default function BookingForm() {
           />
         </div>
         <div className="flex flex-col m-4">
-          <label>Email</label>
+          <label className="font-IBM-Plex-Serif font-semibold mb-2">
+            Email
+          </label>
           <input
             className="h-8 w-52 rounded-md"
             type="email"
@@ -81,17 +97,32 @@ export default function BookingForm() {
           />
         </div>
         <div className="flex flex-col m-4 items-center">
-          <label>How do you prefer to be reached?</label>
-          <select onChange={handleSelected} className="h-8 w-52 rounded-md">
+          <label className="font-IBM-Plex-Serif font-semibold mb-2">
+            How do you prefer to be reached?
+          </label>
+          <select
+            onChange={handleSelected}
+            className="h-8 w-52 rounded-md mb-2"
+          >
             <option>Select one</option>
             <option>Email</option>
             <option>Phone call</option>
             <option>Text</option>
             <option>Other</option>
           </select>
+          <input
+            type="text"
+            placeholder="other..."
+            className={otherDisplay}
+            id="contactPreference"
+            value={inputData.contactPreference}
+            onChange={handleChange}
+          />
         </div>
         <div className="flex flex-col m-4 items-center">
-          <label>Number of people in addition to the bride:</label>
+          <label className="font-IBM-Plex-Serif font-semibold mb-2">
+            Number of people in addition to the bride:
+          </label>
           <input
             className="h-8 w-52 rounded-md"
             type="number"
@@ -101,7 +132,9 @@ export default function BookingForm() {
           />
         </div>
         <div className="flex flex-col m-4">
-          <label>Location</label>
+          <label className="font-IBM-Plex-Serif font-semibold mb-2">
+            Location
+          </label>
           <input
             className="h-8 w-52 rounded-md"
             type="text"
@@ -111,7 +144,9 @@ export default function BookingForm() {
           />
         </div>
         <div className="flex flex-col m-4">
-          <label>Give me a brief description of what you are envisioning</label>
+          <label className="font-IBM-Plex-Serif font-semibold mb-2">
+            Give me a brief description of what you are envisioning
+          </label>
           <textarea
             className="h-32 rounded-md"
             type="text"

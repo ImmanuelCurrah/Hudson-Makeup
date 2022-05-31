@@ -49,7 +49,7 @@ export default function BridalFAQ() {
         <p className="font-IBM-Plex-Serif font-semibold mb-4">
           Have a question you don't see? Ask me
         </p>
-        <p className="mb-4 font-IBM-Plex-Serif font-semibold ml-1 cursor-pointer hover:text-zinc-400">
+        <p className="mb-4 font-IBM-Plex-Serif font-semibold ml-1 cursor-pointer border-b border-black hover:text-zinc-400">
           here.
         </p>
       </div>
