@@ -1,11 +1,12 @@
 import { useState } from "react";
+import Button from "../../UI/button/Button";
 
 const defaultInput = {
   name: "",
   phone: "",
   email: "",
   contactPreference: "",
-  numOfPeople: 0,
+  numOfPeople: "",
   location: "",
   vision: "",
 };
@@ -21,8 +22,6 @@ export default function BookingForm() {
     }));
   };
 
-  console.log(inputData);
-
   const handleSelected = (e) => {
     setInputData((prevState) => ({
       ...prevState,
@@ -30,8 +29,13 @@ export default function BookingForm() {
     }));
   };
 
+  const onSubmit = (e) => {
+    console.log(inputData);
+    setInputData(defaultInput);
+  };
+
   return (
-    <form>
+    <form onSubmit={onSubmit}>
       <div>
         <label>Name:</label>
         <input
@@ -71,16 +75,32 @@ export default function BookingForm() {
       </div>
       <div>
         <label>Number of people in addition to the bride:</label>
-        <input type="number" />
+        <input
+          type="number"
+          id="numOfPeople"
+          value={inputData.numOfPeople}
+          onChange={handleChange}
+        />
       </div>
       <div>
         <label>Location:</label>
-        <input type="text" />
+        <input
+          type="text"
+          id="location"
+          value={inputData.location}
+          onChange={handleChange}
+        />
       </div>
       <div>
         <label>Give me a brief description of what you are envisioning:</label>
-        <textarea />
+        <textarea
+          type="text"
+          id="vision"
+          value={inputData.vision}
+          onChange={handleChange}
+        />
       </div>
+      <Button onSubmit={onSubmit}>Submit</Button>
     </form>
   );
 }

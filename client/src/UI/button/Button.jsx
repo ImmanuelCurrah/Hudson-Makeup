@@ -2,11 +2,15 @@ import { useNavigate } from "react-router-dom";
 
 export default function Button(props) {
   const navigate = useNavigate();
-  const { whereTo } = props;
+  const { whereTo, onSubmit } = props;
 
   return (
     <button
       onClick={() => {
+        if (onSubmit) {
+          onSubmit();
+        }
+
         if (whereTo) {
           props.handleDisplay(true);
           setTimeout(() => {
