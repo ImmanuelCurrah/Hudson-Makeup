@@ -1,5 +1,4 @@
 import { navOptions } from "../nav-options/navOptions";
-import logo from "../../assets/logo/hudson-valley-makeup-logo.png";
 import { useNavigate } from "react-router-dom";
 
 export default function Footer(props) {
