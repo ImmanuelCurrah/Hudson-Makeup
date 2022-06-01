@@ -17,7 +17,7 @@ export default function AboutMe(props) {
         </h2>
       </div>
       <div className="text-left m-4">
-        <p>
+        <p className="font-IBM-Plex-Serif font-semibold">
           What makes me unique as a makeup artist, is my commitment to your
           health! After struggling with my health for years. After battling with
           PCOS and extreme fatigue, and other issues at a young age, I had to
@@ -33,7 +33,7 @@ export default function AboutMe(props) {
           invite me to play only with the best products on all my clients.
         </p>
         <br />
-        <p>
+        <p className="font-IBM-Plex-Serif font-semibold">
           The makeup and skincare products I use are all nontoxic and high
           quality. You don’t have to sacrifice your health by using toxic
           products for beautiful makeup. I’m here to prove that to you. All of
@@ -49,19 +49,19 @@ export default function AboutMe(props) {
         />
       </div>
       <div className="text-left m-4">
-        <p>
+        <p className="font-IBM-Plex-Serif font-semibold">
           Hello there! I’m so happy you found your way here. I am a makeup
           artist living with my partner and doggo in Woodstock, and absolutely
-          love my simple beautiful life. I have been doing makeout on me, and
+          love my simple beautiful life. I have been doing makeup on me, and
           friends since I was 11. It’s always come extremely naturally to me.
           It’s my happy place! I absolutely love doing makeup because it feeds
           my love of connection and creativity. My previous career was as an
           Intimacy Coach for women and couples. I have always been genuinely
           fascinated in relationships and am excited and curious about bringing
-          more beauty to your greatly important day!{" "}
+          more beauty to your greatly important day!
         </p>
         <br />
-        <p>
+        <p className="font-IBM-Plex-Serif font-semibold">
           I have studied Buddhism greatly, and do lots of yin yoga. I truly
           believe beauty comes from the heart, and kindness is timeless makeup.
           I do not believe anyone needs makeup. Makeup to me is a form of
