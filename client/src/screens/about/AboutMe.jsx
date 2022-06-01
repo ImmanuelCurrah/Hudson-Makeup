@@ -1,7 +1,7 @@
 import Layout from "../../components/layout/Layout";
 import sarah from "../../assets/pictures/about-me-front-pic.jpeg";
-import sarah2 from "../../assets/pictures/hey-smiley-face.jpeg";
-import sarah3 from "../../assets/pictures/retreat-vibes.jpeg";
+import sarah2 from "../../assets/pictures/nature.jpg";
+import sarah3 from "../../assets/pictures/nature2.jpg";
 import Button from "../../UI/button/Button";
 
 export default function AboutMe(props) {
@@ -13,7 +13,7 @@ export default function AboutMe(props) {
           Clean Beauty Commitment
         </h2>
         <img
-          className="h-96 m-4 rounded-md phone:h-48"
+          className="w-3/4 m-4 rounded-md phone:w-full"
           src={sarah}
           alt="a selfie of a woman who is the artist"
         />
