@@ -1,5 +1,6 @@
 import Layout from "../../components/layout/Layout";
 import { pictures } from "../../assets/portfolio-data/portfolioData";
+import flower from "../../assets/loading/flower.png";
 import Button from "../../UI/button/Button";
 
 export default function Portfolio(props) {
@@ -15,6 +16,7 @@ export default function Portfolio(props) {
         <div className="font-IBM-Plex-Serif text-2xl m-48">
           Pictures coming soon!
         </div>
+        <img className="animate-pulse" src={flower} alt="a purple flower" />
         <div className="h-96"></div>
       </Layout>
     );
