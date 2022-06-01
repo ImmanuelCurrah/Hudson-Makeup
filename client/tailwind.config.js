@@ -12,6 +12,10 @@ module.exports = {
         "IBM-Plex-Serif": ["IBM Plex Serif", "serif"],
       },
     },
+    screens: {
+      phone: "375px",
+      // => @media (min-width: 375px) {...}
+    },
   },
   variants: {
     extend: {
