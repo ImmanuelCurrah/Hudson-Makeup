@@ -14,10 +14,10 @@ export default function Bridal(props) {
       </div>
       <BridalIntro />
       <BridalMission />
-      <BridalProcess />
+      <BridalProcess handleDisplay={props.handleDisplay} />
       <BridalFAQ />
       <BridalCovidCard />
-      <BridalQuoteCard />
+      <BridalQuoteCard handleDisplay={props.handleDisplay} />
     </Layout>
   );
 }

@@ -1,6 +1,7 @@
 import Layout from "../../components/layout/Layout";
 import sarah from "../../assets/pictures/about-me-front-pic.jpeg";
-import sarah2 from "../../assets/pictures/sarah-on-rock.jpeg";
+import sarah2 from "../../assets/pictures/hey-smiley-face.jpeg";
+import sarah3 from "../../assets/pictures/retreat-vibes.jpeg";
 import Button from "../../UI/button/Button";
 
 export default function AboutMe(props) {
@@ -74,7 +75,7 @@ export default function AboutMe(props) {
       <div className="w-screen flex flex-row justify-start items-center phone:flex-col">
         <img
           className="h-96 m-4 rounded-md"
-          src={sarah2}
+          src={sarah3}
           alt="the artist of the website standing on a rock with her arms out"
         />
         <div className="w-full phone:mb-4">

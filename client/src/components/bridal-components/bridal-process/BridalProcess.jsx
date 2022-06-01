@@ -6,7 +6,7 @@ import { RiNumber5 } from "react-icons/ri";
 import { RiNumber6 } from "react-icons/ri";
 import Button from "../../../UI/button/Button";
 
-export default function BridalProcess() {
+export default function BridalProcess(props) {
   return (
     <div className="bg-zinc-200 w-screen flex flex-col items-center">
       <div className="m-4">
@@ -55,7 +55,9 @@ export default function BridalProcess() {
         </div>
       </div>
       <div className="m-4">
-        <Button>Get started!</Button>
+        <Button handleDisplay={props.handleDisplay} whereTo="booking">
+          Get started!
+        </Button>
       </div>
     </div>
   );

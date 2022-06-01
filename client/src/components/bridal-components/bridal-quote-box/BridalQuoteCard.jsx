@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../../../UI/button/Button";
 import bride from "../../../assets/bridal-filler-pics/quote-box-bride.jpeg";
 
-export default function BridalQuoteCard() {
+export default function BridalQuoteCard(props) {
   return (
     <div className="bg-zinc-300 w-screen flex flex-col items-center">
       <div className="m-4 flex flex-col items-center">
@@ -19,7 +19,9 @@ export default function BridalQuoteCard() {
           wildest dreams!
         </p>
         <div>
-          <Button>Request a Quote!</Button>
+          <Button handleDisplay={props.handleDisplay} whereTo="booking">
+            Request a Quote!
+          </Button>
         </div>
       </div>
     </div>
