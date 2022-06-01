@@ -1,4 +1,3 @@
-import one from "../pictures/about-me-front-pic.jpeg";
 import two from "../pictures/couple-two.jpeg";
 import three from "../pictures/couple.jpeg";
 import four from "../pictures/hey-smiley-face.jpeg";
@@ -9,7 +8,6 @@ import eight from "../pictures/Sarah.jpeg";
 import nine from "../pictures/sunlight.jpeg";
 
 export const pictures = [
-  { picture: one, description: "the artist standing next to a rock" },
   { picture: two, description: "the artist and her boyfriend selfie" },
   { picture: three, description: "the artist and her boyfriend selfie" },
   { picture: four, description: "a selfie of the artist" },

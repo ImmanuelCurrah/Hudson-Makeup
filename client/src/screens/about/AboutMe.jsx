@@ -6,15 +6,16 @@ import Button from "../../UI/button/Button";
 export default function AboutMe(props) {
   return (
     <Layout handleDisplay={props.handleDisplay}>
-      <div className="w-screen flex flex-row items-center phone:flex-col">
+      <div className="w-screen flex flex-col items-center phone:flex-col">
+        {" "}
+        <h2 className="w-full font-IBM-Plex-Serif text-3xl m-4">
+          Clean Beauty Commitment
+        </h2>
         <img
           className="h-96 m-4 rounded-md"
           src={sarah}
           alt="a selfie of a woman who is the artist"
         />
-        <h2 className="w-full font-IBM-Plex-Serif text-3xl">
-          Clean Beauty Commitment
-        </h2>
       </div>
       <div className="text-left m-4">
         <p className="font-IBM-Plex-Serif font-semibold">
