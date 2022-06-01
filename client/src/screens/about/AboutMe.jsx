@@ -79,7 +79,9 @@ export default function AboutMe(props) {
           alt="the artist of the website standing on a rock with her arms out"
         />
         <div className="w-full phone:mb-4">
-          <Button>Get a Quote Today!</Button>
+          <Button handleDisplay={props.handleDisplay} whereTo="booking">
+            Get a Quote Today!
+          </Button>
         </div>
       </div>
     </Layout>
