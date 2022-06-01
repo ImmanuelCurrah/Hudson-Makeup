@@ -12,7 +12,7 @@ export default function Portfolio(props) {
         </Button>
       </div>
 
-      <div className="grid grid-cols-3 gap-4 m-4">
+      <div className="grid grid-cols-3 gap-4 m-4 phone:flex flex-col items-center">
         {pictures.map((pic, index) => {
           return (
             <img
