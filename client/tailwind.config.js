@@ -13,8 +13,8 @@ module.exports = {
       },
     },
     screens: {
-      phone: "375px",
-      // => @media (min-width: 375px) {...}
+      phone: { max: "375px" },
+      // => @media (max-width: 375px) {...}
     },
   },
   variants: {
