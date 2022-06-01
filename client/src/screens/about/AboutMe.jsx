@@ -13,7 +13,7 @@ export default function AboutMe(props) {
           Clean Beauty Commitment
         </h2>
         <img
-          className="h-96 m-4 rounded-md"
+          className="h-96 m-4 rounded-md phone:h-48"
           src={sarah}
           alt="a selfie of a woman who is the artist"
         />
