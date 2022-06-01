@@ -2,7 +2,7 @@ import bride from "../../../assets/bridal-filler-pics/bridal-top.png";
 
 export default function BridalIntro() {
   return (
-    <div className="flex flex-row m-4 items-center justify-evenly">
+    <div className="flex flex-row m-4 items-center justify-evenly phone:flex-col">
       <img
         className="h-52 rounded-md"
         src={bride}

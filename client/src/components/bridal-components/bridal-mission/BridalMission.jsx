@@ -3,7 +3,7 @@ import { BsFlower3 } from "react-icons/bs";
 
 export default function BridalMission() {
   return (
-    <div className="bg-white w-screen flex flex-row justify-evenly items-center">
+    <div className="bg-white w-screen flex flex-row justify-evenly items-center phone:flex-col">
       <div className="m-4">
         <div className="font-IBM-Plex-Serif text-xl">
           My mission is to help you...
@@ -39,7 +39,7 @@ export default function BridalMission() {
         </div>
       </div>
       <img
-        className="w-96 m-4 rounded-md"
+        className="w-96 m-4 rounded-md phone:w-80"
         src={bride}
         alt="a bride and her spouse on a rocky outcrop"
       />

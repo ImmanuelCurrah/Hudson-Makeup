@@ -7,7 +7,7 @@ export default function BridalFAQ() {
         <h2 className="font-IBM-Plex-Serif text-xl">FAQ</h2>
       </div>
       <div className="flex flex-col items-center justify-center"></div>
-      <div className="grid grid-cols-2 gap-16 m-4 ">
+      <div className="grid grid-cols-2 gap-16 m-4 phone:flex flex-col items-center">
         <div>
           <h3 className="font-IBM-Plex-Serif">Here is a test question</h3>
           <p className="font-IBM-Plex-Serif font-semibold">answer</p>
