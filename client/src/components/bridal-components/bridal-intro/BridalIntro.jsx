@@ -9,9 +9,7 @@ export default function BridalIntro() {
         alt="a bride holding flowers"
       />
       <div className="m-4">
-        <h2 className="m-2 font-IBM-Plex-Serif text-xl">
-          Some catchy little phrase
-        </h2>
+        <h2 className="m-2 font-IBM-Plex-Serif text-xl">It's your day!</h2>
         <p className="text-left font-IBM-Plex-Serif font-semibold">
           The bridal makeup I do is more natural looking, bringing our your
           beauty to shine as big as the love in your heart. Like the look, all
