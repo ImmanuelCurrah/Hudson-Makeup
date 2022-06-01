@@ -6,7 +6,7 @@ export default function About() {
       <img
         className="h-96 mt-8 mb-8 rounded-md"
         src={sarah}
-        alt="a picture of a woman next to a lake a blue sky"
+        alt=" a woman next to a lake a blue sky"
       />
       <p className=" mx-8 mb-8 font-IBM-Plex-Serif font-semibold">
         Are you a future bride who wants to bring out her natural beauty?
