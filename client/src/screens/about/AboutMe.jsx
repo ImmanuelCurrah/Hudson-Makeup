@@ -12,7 +12,7 @@ export default function AboutMe(props) {
           src={sarah}
           alt="a selfie of a woman who is the artist"
         />
-        <h2 className="m-48 font-IBM-Plex-Serif text-3xl">
+        <h2 className="w-full font-IBM-Plex-Serif text-3xl">
           Clean Beauty Commitment
         </h2>
       </div>
@@ -41,7 +41,7 @@ export default function AboutMe(props) {
         </p>
       </div>
       <div className="w-screen flex flex-row justify-end items-center">
-        <h2 className="m-32 font-IBM-Plex-Serif text-3xl">About Sarah</h2>
+        <h2 className="font-IBM-Plex-Serif text-3xl w-full">About Sarah</h2>
         <img
           className="h-96 m-4 rounded-md"
           src={sarah2}
@@ -76,7 +76,7 @@ export default function AboutMe(props) {
           src={sarah2}
           alt="the artist of the website standing on a rock with her arms out"
         />
-        <div className="w-screen">
+        <div className="w-full">
           <Button>Get a Quote Today!</Button>
         </div>
       </div>
