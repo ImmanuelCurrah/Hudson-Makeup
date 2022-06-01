@@ -30,20 +30,6 @@ export default function Footer(props) {
             );
           })}
         </div>
-        <div>
-          <img
-            onClick={() => {
-              props.handleDisplay(true);
-              setTimeout(() => {
-                navigate("/");
-                props.handleDisplay(false);
-              }, 1000);
-            }}
-            className="h-32 cursor-pointer mb-2"
-            src={logo}
-            alt="hands making a heart with name of artist underneath"
-          />
-        </div>
         <div className="flex flex-col justify-center items-start">
           <p>Woodstock, NY</p>
           <p>{`(914)-336-0733`}</p>

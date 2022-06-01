@@ -6,7 +6,7 @@ import Button from "../../UI/button/Button";
 export default function AboutMe(props) {
   return (
     <Layout handleDisplay={props.handleDisplay}>
-      <div className="w-screen flex flex-row items-center ">
+      <div className="w-screen flex flex-row items-center phone:flex-col">
         <img
           className="h-96 m-4 rounded-md"
           src={sarah}
@@ -40,7 +40,7 @@ export default function AboutMe(props) {
           the makeup I use is designed to help you glow from the inside out.
         </p>
       </div>
-      <div className="w-screen flex flex-row justify-end items-center">
+      <div className="w-screen flex flex-row justify-end items-center phone:flex-col">
         <h2 className="font-IBM-Plex-Serif text-3xl w-full">About Sarah</h2>
         <img
           className="h-96 m-4 rounded-md"
@@ -70,13 +70,13 @@ export default function AboutMe(props) {
           bring out the beauty that’s already there.{" "}
         </p>
       </div>
-      <div className="w-screen flex flex-row justify-start items-center">
+      <div className="w-screen flex flex-row justify-start items-center phone:flex-col">
         <img
           className="h-96 m-4 rounded-md"
           src={sarah2}
           alt="the artist of the website standing on a rock with her arms out"
         />
-        <div className="w-full">
+        <div className="w-full phone:mb-4">
           <Button>Get a Quote Today!</Button>
         </div>
       </div>
