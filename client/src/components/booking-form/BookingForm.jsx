@@ -133,7 +133,7 @@ export default function BookingForm() {
         </div>
         <div className="flex flex-col m-4">
           <label className="font-IBM-Plex-Serif font-semibold mb-2">
-            Location
+            Location of wedding
           </label>
           <input
             className="h-8 w-52 rounded-md"
@@ -145,7 +145,8 @@ export default function BookingForm() {
         </div>
         <div className="flex flex-col m-4">
           <label className="font-IBM-Plex-Serif font-semibold mb-2">
-            Give me a brief description of what you are envisioning
+            Give me a brief description of what you are envisioning for your
+            look
           </label>
           <textarea
             className="h-32 rounded-md"
