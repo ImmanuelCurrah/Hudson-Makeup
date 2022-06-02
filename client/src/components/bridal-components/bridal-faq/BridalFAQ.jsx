@@ -24,26 +24,27 @@ export default function BridalFAQ() {
             Where and when do trials happen?
           </h3>
           <p className="font-IBM-Plex-Serif font-semibold">
-            Trials will take place about one month before the event. The trial
-            location will be decided during the booking phase. If the
-            destination decided upon is far away, a travel fee may apply.
+            Trials will take place close to the booking. I will come to you for
+            the trail. If the destination decided upon is far away, a travel fee
+            may apply.
           </p>
         </div>
         <div>
           <h3 className="font-IBM-Plex-Serif">
-            How should I prepare for the trial and day of?
+            How should I prepare for the trial?
           </h3>
           <p className="font-IBM-Plex-Serif font-semibold">
-            Just be yourself! I am here to make your makeup journey as stress
-            free and relaxing as possible. However that looks for you, I can
-            make it happen. This is about you!
+            I am here to make your makeup journey as stress free and relaxing as
+            possible. For the trail we will have tea and get to know each other.
+            Come prepared with any pictures or product ideas you have in mind
+            for the wedding.
           </p>
         </div>
         <div>
           <h3 className="font-IBM-Plex-Serif">Do you travel?</h3>
           <p className="font-IBM-Plex-Serif font-semibold">
-            I am based in the Hudson Valley. Travel is something I am open too.
-            There is a travel fee that is outlined.
+            I am based in the Hudson Valley. I am open to travel three hours
+            from Woodstock, NY. There would be a travel fee.
           </p>
         </div>
         <div>
