@@ -13,27 +13,23 @@ export default function BridalMission() {
           <ul className="font-IBM-Plex-Serif font-semibold text-left">
             <div className="flex flex-row items-center mx-">
               <BsFlower3 className="m-2" />
-              <li>Break out</li>
+              <li>Feel as beautiful as possible</li>
             </div>
             <div className="flex flex-row items-center mx-">
               <BsFlower3 className="m-2" />
-              <li>Relax</li>
+              <li>Bring your beauty vision to life</li>
             </div>
             <div className="flex flex-row items-center mx-">
               <BsFlower3 className="m-2" />
-              <li>Be Beautiful</li>
+              <li>Feel relaxed and comfortable</li>
             </div>
             <div className="flex flex-row items-center mx-">
               <BsFlower3 className="m-2" />
-              <li>Have fun</li>
+              <li>Stay healthy and glowing from the inside</li>
             </div>
             <div className="flex flex-row items-center mx-">
               <BsFlower3 className="m-2" />
-              <li>Stay stress free</li>
-            </div>
-            <div className="flex flex-row items-center mx-">
-              <BsFlower3 className="m-2" />
-              <li>Shine</li>
+              <li>Feel fresh, light, and lovely on your big day</li>
             </div>
           </ul>
         </div>
