@@ -17,3 +17,5 @@ export const pictures = [
   { picture: port6, description: "a brides maid" },
   { picture: port1, description: "a brides maid" },
 ];
+
+//change for deploy
