@@ -1,5 +1,5 @@
 import Layout from "../../components/layout/Layout";
-import logo from "../../assets/logo/hudson-valley-makeup-logo.png";
+import logo from "../../assets/logo/logo.png";
 import HomePageBooking from "../../components/homePageBooking/HomePageBooking";
 import About from "../../components/about/About";
 
